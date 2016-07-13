@@ -1,8 +1,9 @@
- function users(){
+ function User(){
         
         var nickName;
         var email ;
         this.friendList = new FriendList();
+        
         this.ip = function(){
             var http = require('http');
 
