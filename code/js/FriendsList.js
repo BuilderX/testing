@@ -1,23 +1,28 @@
-
- function FriendList(){
+  function FriendList(){
         var friends = [];
         var enemyList = [];
-        var list = function(){
-            var frd = friends;
-            return frd;
+        
+        var addFr = function(f){
+             friends.push(f);
         }
-        this.addFriend = function(f){
-             list.push(f);
+        var removeFr =  function(){
+             friends.pop();
         }
-        this.removeFriend = function(o){
-            var index = list.indexOf(o);
-               if (index > -1) {
-               array.splice(index, 1);
+        var removeFriend = function(g){
+            var index = friends.indexOf(g);
+               if (index > -1 ) {
+               friends.splice(index, 1);
            }
         }
-        this.mostRecentUser = function() {
-             return list[list.length - 1];
+        var mostRecentUser = function() {
+             return friends[friends.length - 1];
      }
-        
+        return {
+                list:friends,
+                add:addFr,
+                rem:removeFriend,
+                mr:mostRecentUser
+            
+        };
           
     }
