@@ -27,3 +27,11 @@ var sqlConnection = function sqlConnection(sql, values, next) {
 }
 
 module.exports = sqlConnection;
+
+/* to use in other files
+var mysql_query = require('../models/mysql_query');
+mysql_query('SELECT * from your_table where ?', {id: '1'}, function(err, rows)   {
+    console.log(rows);
+});
+
+*/
