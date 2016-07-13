@@ -5,8 +5,10 @@
     	var matching = $('passInputMatch');
     	var submitButton = $('submitBtn');
     	var submit = userSignIn.sendToDB();
-    	checkMatch(password,matching);
         var match = function checkMatch(pass,matching){
+    	
+    	checkMatch(password,matching);
+    	
     	
     	var userWarningId = $('userWarning');
     	  if(typeof pass && typeof matching !=='string' ){
