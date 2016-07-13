@@ -12,6 +12,9 @@
         this.removeFriend = function(){
             list.pop();
         }
+        this.mostRecentUser: function() {
+        return list[list.length - 1];
+     }
         
           
     }
