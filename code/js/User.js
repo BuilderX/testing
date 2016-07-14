@@ -16,3 +16,11 @@
         
         
     }
+var users = {
+     nickName:'',
+     calender:{debatesScheduled:''},
+     online:false,
+     sessions:3,
+     lastLoginDate:new Date(),
+     points:10000
+}
