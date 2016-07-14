@@ -1,0 +1,128 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+
+/*-----------------------------------------------*/
+
+#CForm {
+  top: 100px;
+  position: relative;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  cursor: pointer;
+  background: lightgray;
+  width: 450px;
+  height: 400px;
+  color: black;
+  text-shadow: 1px 2px 1px white;
+  box-shadow: 5px 2px 2px black;
+  border: 6px outset silver;
+}
+
+#Csform {
+  background: lightgray;
+  width: 190px;
+  height: 150px;
+  position: relative;
+  left: 40px;
+  bottom: -5px;
+}
+
+#divContainer {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  right: 10px;
+  top: -12px;
+}
+
+
+/*-----------------------------------------------*/
+
+.subF {
+  position: relative;
+  top: 5px;
+  left: 70px;
+  cursor: pointer;
+}
+
+
+/*-----------------------------------*/
+
+#submit {
+  background: #2BB560;
+  color: white;
+  border: 4px outset white;
+  cursor: pointer
+}
+
+#cancel {
+  border: 4px outset white;
+}
+
+#submit:after {
+  background: black;
+  color: white;
+  box-shadow: 3px 3px 2px white;
+  border: 2px inset white;
+  cursor: pointer
+}
+
+#cancel:after {
+  border: 2px inset white;
+  cursor: pointer
+}
+
+#submit:hover {
+  color: black;
+}
+
+#cancel:hover {
+  color: black;
+}
+
+
+/*--------------------------------------------------*/
+
+
+/*--------------------------------------------*/
+
+#name:hover {
+  text-shadow: 0px 4px 3px rgba(10, 0, 100, 0.2), 0px 8px 13px rgba(10, 0, 10, 0.2), 0px 18px 23px rgba(0, 10, 0, 0.1);
+}
+
+#email:hover {
+  text-shadow: 0px 4px 3px rgba(10, 0, 100, 0.2), 0px 8px 13px rgba(10, 0, 10, 0.2), 0px 18px 23px rgba(0, 10, 0, 0.1);
+}
+
+#Sug {
+  position: relative;
+  left: 2px;
+  top: -5px;
+}
+
+#Sug:hover {
+  text-shadow: 0px 4px 3px rgba(10, 0, 100, 0.2), 0px 8px 13px rgba(10, 0, 10, 0.2), 0px 18px 23px rgba(0, 10, 0, 0.1);
+}
+
+
+/*--------------------------------------------*/
+
+#ConForm {
+  text-shadow: -1px 1px 1px white, 1px 1px 1px white, 1px 1px 1px silver;
+}
+
+#ConForm:hover {
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+
+/*------------------------------*/
